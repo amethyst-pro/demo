@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <WarningsAsErrors />
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Amethyst.Demo.Cards.Domain.Events\Amethyst.Demo.Cards.Domain.Events.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Amethyst.EventStore.Domain" Version="1.0.0" />
+      <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+      <PackageReference Include="System.Dynamic.Runtime" Version="4.3.0" />
+    </ItemGroup>
+    
+</Project>

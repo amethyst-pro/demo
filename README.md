@@ -1,2 +1,2 @@
 # demo
-Demo service
+Demo services
