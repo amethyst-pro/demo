@@ -19,11 +19,10 @@ namespace Amethyst.Demo.Cards.Host.Composition
         {
             var con = configuration.GetSection("Postgres").Get<string>();
             var connections = new DbConnections(con, con);
-            
-            const string serviceName = "users";
 
             var kafkaBrokers = configuration.GetSection("Kafka:Brokers").Get<string>();
             
+            const string serviceName = "cards";
             var topic = $"amethyst_{serviceName}_{typeof(Card).Name.ToLowerInvariant()}";
 
             var publisherFactory = new PublisherFactory(
