@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7C30AC33-1678-444E-8B7A-BD2B3B1357AA}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{472CBE2E-8E9D-4482-AEA9-7546DE096CD1}"
 EndProject
-
-
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amethyst.Demo.Cards.Host", "src\Amethyst.Demo.Cards.Host\Amethyst.Demo.Cards.Host.csproj", "{93F0A4E7-0996-45A2-9800-AE8853F568DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amethyst.Demo.Cards.Application", "src\Amethyst.Demo.Cards.Application\Amethyst.Demo.Cards.Application.csproj", "{45D2A5EF-84A9-4E7E-AD97-5D8B38755274}"
@@ -12,12 +12,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amethyst.Demo.Cards.Domain"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amethyst.Demo.Cards.Domain.Events", "src\Amethyst.Demo.Cards.Domain.Events\Amethyst.Demo.Cards.Domain.Events.csproj", "{9B1C8E0C-9192-4780-A9B5-4E94A59A3F12}"
 EndProject
-
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ets.Services.Cards.Domain.Tests", "test\Ets.Services.Cards.Domain.Tests\Ets.Services.Cards.Domain.Tests.csproj", "{69BB90DD-A470-4774-A2D8-5AB5309AEB0F}"
-EndProject
-	Dockerfile = Dockerfile
-	README.md = README.md
-EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amethyst.Demo.Cards.Tests", "test\Amethyst.Demo.Cards.Tests\Amethyst.Demo.Cards.Tests.csproj", "{69BB90DD-A470-4774-A2D8-5AB5309AEB0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +43,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{69BB90DD-A470-4774-A2D8-5AB5309AEB0F} = {472CBE2E-8E9D-4482-AEA9-7546DE096CD1}
+		{45D2A5EF-84A9-4E7E-AD97-5D8B38755274} = {7C30AC33-1678-444E-8B7A-BD2B3B1357AA}
+		{95F63B74-0735-47FA-9F93-C5BF88FC25F2} = {7C30AC33-1678-444E-8B7A-BD2B3B1357AA}
+		{9B1C8E0C-9192-4780-A9B5-4E94A59A3F12} = {7C30AC33-1678-444E-8B7A-BD2B3B1357AA}
+		{93F0A4E7-0996-45A2-9800-AE8853F568DD} = {7C30AC33-1678-444E-8B7A-BD2B3B1357AA}
 	EndGlobalSection
 EndGlobal

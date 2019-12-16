@@ -10,7 +10,7 @@ namespace Amethyst.Demo.Cards.Host.Composition
         {
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Amethyst Demo API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Amethyst Demo (Cards) API", Version = "v1" });
             });
 
             return services;
@@ -21,7 +21,7 @@ namespace Amethyst.Demo.Cards.Host.Composition
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Amethyst Demo V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Amethyst Demo (Cards) V1");
             });
 
             return app;
