@@ -26,8 +26,4 @@
       <ProjectReference Include="..\Amethyst.Demo.Querying.Store\Amethyst.Demo.Querying.Store.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Controllers" />
-    </ItemGroup>
-
 </Project>

@@ -4,7 +4,6 @@ using Amethyst.Subscription.Broker;
 using Amethyst.Subscription.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SharpJuice.Essentials;
 
 namespace Amethyst.Demo.Querying.Host.Composition
 {
@@ -34,8 +33,6 @@ namespace Amethyst.Demo.Querying.Host.Composition
                 ServiceLifetime.Scoped,
                 AppDomain.CurrentDomain.GetAssemblies());
 
-            services.AddSingleton<IClock, Clock>();
-            
             return services;
         }
     }

@@ -23,6 +23,7 @@ namespace Amethyst.Demo.Querying.Host
             services.AddPricingReadModel(connectionString);
             services.AddConfiguredSwagger();
             services.AddStores();
+            services.AddServices();
             services.AddSubscription(_configuration);
             
             services
