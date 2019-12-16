@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <WarningsAsErrors />
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Amethyst.EventStore.Streams" Version="1.0.0" />
+        <PackageReference Include="Amethyst.Subscription.Hosting" Version="1.0.0" />
+        <PackageReference Include="Amethyst.Subscription.Serializers" Version="1.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0-rc4" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.0.0-rc4" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.0.0-rc4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Amethyst.Demo.Querying.Models\Amethyst.Demo.Querying.Models.csproj" />
+      <ProjectReference Include="..\Amethyst.Demo.Querying.Services\Amethyst.Demo.Querying.Services.csproj" />
+      <ProjectReference Include="..\Amethyst.Demo.Querying.Store\Amethyst.Demo.Querying.Store.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <WarningsAsErrors />
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="Amethyst.Demo.Cards.Domain.Events" Version="1.0.0" />
+      <PackageReference Include="Amethyst.Subscription.Hosting" Version="1.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Amethyst.Demo.Querying.Models\Amethyst.Demo.Querying.Models.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1BA3FB36-0510-4634-8084-92400D018B5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A3B88DE-B691-4F54-93BC-DA62A29FB266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amethyst.Demo.Querying.Tests", "tests\Amethyst.Demo.Querying.Tests\Amethyst.Demo.Querying.Tests.csproj", "{7C0CF894-22EA-4DCB-A2BA-CB38C5F59437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amethyst.Demo.Querying.Host", "src\Amethyst.Demo.Querying.Host\Amethyst.Demo.Querying.Host.csproj", "{D3C86F09-9668-452D-9FDD-CFD340F22EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amethyst.Demo.Querying.Models", "src\Amethyst.Demo.Querying.Models\Amethyst.Demo.Querying.Models.csproj", "{8A817760-4E3A-4EAF-8E10-EAB187A8125D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amethyst.Demo.Querying.Services", "src\Amethyst.Demo.Querying.Services\Amethyst.Demo.Querying.Services.csproj", "{C455A0ED-1985-42D3-BF23-96C5399266E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amethyst.Demo.Querying.Store", "src\Amethyst.Demo.Querying.Store\Amethyst.Demo.Querying.Store.csproj", "{3F7C830D-520D-465E-807C-7BEF11D52D8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3C86F09-9668-452D-9FDD-CFD340F22EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C86F09-9668-452D-9FDD-CFD340F22EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C86F09-9668-452D-9FDD-CFD340F22EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C86F09-9668-452D-9FDD-CFD340F22EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0CF894-22EA-4DCB-A2BA-CB38C5F59437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0CF894-22EA-4DCB-A2BA-CB38C5F59437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0CF894-22EA-4DCB-A2BA-CB38C5F59437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0CF894-22EA-4DCB-A2BA-CB38C5F59437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A817760-4E3A-4EAF-8E10-EAB187A8125D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A817760-4E3A-4EAF-8E10-EAB187A8125D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A817760-4E3A-4EAF-8E10-EAB187A8125D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A817760-4E3A-4EAF-8E10-EAB187A8125D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C455A0ED-1985-42D3-BF23-96C5399266E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C455A0ED-1985-42D3-BF23-96C5399266E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C455A0ED-1985-42D3-BF23-96C5399266E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C455A0ED-1985-42D3-BF23-96C5399266E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7C830D-520D-465E-807C-7BEF11D52D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7C830D-520D-465E-807C-7BEF11D52D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7C830D-520D-465E-807C-7BEF11D52D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7C830D-520D-465E-807C-7BEF11D52D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C0CF894-22EA-4DCB-A2BA-CB38C5F59437} = {1BA3FB36-0510-4634-8084-92400D018B5F}
+		{D3C86F09-9668-452D-9FDD-CFD340F22EC4} = {2A3B88DE-B691-4F54-93BC-DA62A29FB266}
+		{8A817760-4E3A-4EAF-8E10-EAB187A8125D} = {2A3B88DE-B691-4F54-93BC-DA62A29FB266}
+		{C455A0ED-1985-42D3-BF23-96C5399266E3} = {2A3B88DE-B691-4F54-93BC-DA62A29FB266}
+		{3F7C830D-520D-465E-807C-7BEF11D52D8F} = {2A3B88DE-B691-4F54-93BC-DA62A29FB266}
+	EndGlobalSection
+EndGlobal
